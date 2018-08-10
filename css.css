@@ -1,0 +1,97 @@
+body{
+    background:#eee;
+    margin:0;
+    font-family:'Montserrat';
+}
+.gamearea{
+    width:790px;
+    height:500px;
+    box-shadow:0px 0px 44px rgba(0,0,0,.2);
+    background:#fff;
+    margin:70px auto;
+    border-radius:3px;
+    display:flex;
+}
+.gamearea .part{
+    width:50%;
+    height:100%;
+}
+.part.you{
+    background:#3399cc22;
+}
+.part h1, .part h2{
+    text-align:center;
+    margin:0 auto;
+    font-weight:300;
+    text-transform:uppercase;
+}
+.part > h1{
+    margin:10px auto;
+    font-size:70px;
+    font-weight:100;
+    color:#3399cc;
+}
+.part > h2{
+    color:#777;
+    margin:70px auto 0px;
+    font-size:35px;
+}
+
+.curS{
+    background:#3399cc;
+    width:130px;
+    margin:100px auto 0;
+    height:100px;
+    text-align: center;
+    padding-top:1px;
+}
+
+.dice{
+    display: none;
+}
+.dri{
+    width:130px;
+    margin:0 auto;
+    height:120px;
+    position:absolute;
+    left:0;
+    bottom:150px;
+    right:0;
+    text-align: center;
+    padding-top:1px;
+}
+.dri2{
+    width:130px;
+    margin:0 auto;
+    height:120px;
+    position:absolute;
+    left:0;
+    bottom:350px;
+    right:0;
+    text-align: center;
+    padding-top:1px;
+}
+.dri img{
+    margin:10px auto 10px;
+    display:block;   
+    cursor:pointer;
+    opacity:0.7;
+}
+.dri img:hover{
+    opacity:1;
+}
+
+
+.curS > p{
+    margin:13px auto 7px;
+    font-size:13px;
+    color:#ffffffaa;
+    text-transform:uppercase;
+}
+.curS > h3{
+    color:#fff;
+    margin:0px auto 0px;
+    font-size:40px;
+    text-transform:uppercase;
+    font-weight:400;
+}

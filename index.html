@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <title>Sample</title>
+    <script>
+        var arr1 = [1991, 2013, 2000, 1994, 1997, 2001];
+        var newarr = [];
+        var newarr2 = [];
+        
+        const length = arr1.length;
+        for(i=0;i<=length;i++)
+        {
+            var age = 2018 - arr1[i];
+            if(age >= 18)
+            {
+                newarr2[i] = true;   
+            }
+            else{
+                newarr2[i] = false;   
+            }
+            
+            (newarr.length == 6) ? "":newarr[i] = age;
+
+        }
+        console.log(newarr);
+        console.log(newarr2);
+    </script>
+    </head>
+    <body>
+    
+    </body>
+</html>
